@@ -31,7 +31,4 @@ You can visit the above link directly
 YT Link -> https://youtu.be/3HB4B9GonXQ
 
 ======= Drive Link Below =======
-https://drive.google.com/drive/folders/1H5mIDnLdzjMfMc6Z54d-49ayo5emb9E-?usp=drive_link.  (File download)
-
-https://drive.google.com/file/d/1J9ISzLPkIWlrrbKIfqXQ3aOKRQqLfAQi/view?usp=drive_link (video)
-
+https://drive.google.com/drive/folders/1oZ0IQ_99KHUYFtfT2BiT55eRt4ATs7f3?usp=drive_link
