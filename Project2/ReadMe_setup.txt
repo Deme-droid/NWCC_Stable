@@ -30,6 +30,4 @@ You can visit the above link directly
 YT Link -> https://youtu.be/GYLSmPt6yw4
 
 ======= Drive Link Below =======
-https://drive.google.com/drive/folders/1tO20oqtIedt4FmT0qmuQNmjRRprGwocp?usp=drive_link (file download)
-
-https://drive.google.com/file/d/1gsyeOp0LdrYVdtQkS3p-QBNAgcbkSRVs/view?usp=drive_link (video)
+https://drive.google.com/drive/folders/1oZ0IQ_99KHUYFtfT2BiT55eRt4ATs7f3?usp=drive_link
