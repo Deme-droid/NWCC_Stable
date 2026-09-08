@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar"><button class="theme-toggle" id="themeToggle" type="button"><span class="theme-icon">☾</span><span class="theme-label">Dark mode</span></button></header>
+    <section class="signup-card">
+      <div class="brand">
+        <span class="brand-mark">Hi!</span>
+        <div>
+          <h1>Let’s get you started</h1>
+          <p>Create an account and you’re good to go.</p>
+        </div>
+      </div>
+
+      <form id="signupForm" novalidate>
+        <div class="field">
+          <label for="username">Username</label>
+          <input id="username" name="username" type="text" autocomplete="username"
+                 placeholder="e.g. NWCC">
+          <small class="error" id="usernameError"></small>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email"
+                 placeholder="name@xyz.com">
+          <small class="error" id="emailError"></small>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password"
+                 autocomplete="new-password" placeholder="At least 6 characters">
+          <small class="error" id="passwordError"></small>
+        </div>
+
+        <button class="primary-btn" type="submit">Let's Go! <span>→</span></button>
+        <p class="form-status" id="formStatus" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="dashboard-card">
+      <div class="dashboard-header">
+        <div>
+          <p class="eyebrow">Dashboard</p>
+          <h2>Registered users</h2>
+          <p class="muted">Everything here stays in this browser.</p>
+        </div>
+        <div class="user-count" id="userCount">0 users</div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Username</th>
+              <th>Email</th>
+              <th>Password</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="userTableBody"></tbody>
+        </table>
+
+        <div class="empty-state" id="emptyState">
+          <div class="empty-icon">+</div>
+          <h3>No users yet</h3>
+          <p>Create an account above and it will appear here.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="comments-card">
+      <div class="section-heading"><div><p class="eyebrow">Let's talk <3</p><h2>Comments</h2><p class="muted"></p></div></div>
+      <form id="commentForm" class="comment-form">
+        <label for="commentName">Your name</label><input id="commentName" type="text" placeholder="What should I call you?">
+        <label for="commentText">Your comment</label><textarea id="commentText" rows="4" placeholder="Tell me what you think..."></textarea>
+        <button class="secondary-btn" type="submit">Post comment</button><p class="form-status" id="commentStatus" aria-live="polite"></p>
+      </form>
+      <div class="comments-list" id="commentsList"><div class="comments-empty" id="commentsEmpty">No comments yet. Be the first to say something.</div></div>
+    </section>
+    <footer class="connect-card">
+      <div><p class="connection">Keep in touch</p><h2>Connect with me</h2><p class="muted">If you liked this little project, come say hi.</p></div>
+      <div class="social-links"><a href="https://www.linkedin.com/in/kovid-kulkarni-290336411/" target="_blank" rel="noopener noreferrer" class="social-link"><span>in</span> LinkedIn</a><a href="https://www.instagram.com/kulkarnikovid" target="_blank" rel="noopener noreferrer" class="social-link"><span>◎</span> Instagram</a></div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
