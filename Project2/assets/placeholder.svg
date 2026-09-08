@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#172d49"/>
+    <stop offset="0.55" stop-color="#4f72ff"/>
+    <stop offset="1" stop-color="#a99cff"/>
+  </linearGradient>
+</defs>
+<rect width="900" height="1100" fill="#07111f"/>
+<circle cx="690" cy="300" r="230" fill="url(#g)" opacity=".8"/>
+<circle cx="250" cy="800" r="330" fill="#10223a"/>
+<path d="M0 850 Q250 650 450 820 T900 760 V1100 H0Z" fill="#0c192b"/>
+<text x="450" y="540" fill="#f3f6ff" font-family="Arial" font-size="64" text-anchor="middle">PHOTO</text>
+<text x="450" y="610" fill="#9eabc0" font-family="Arial" font-size="28" text-anchor="middle">replace this later</text>
+</svg>
