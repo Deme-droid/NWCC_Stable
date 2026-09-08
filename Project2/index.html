@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kovid-Kulkarni</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main id="profile" class="profile">
+        <section class="hero-video">
+            <video id="intro-video" autoplay muted loop playsinline preload="auto" aria-label="Intro video">
+                <source id="video-source" src="assets/intro-dark.mp4" type="video/mp4">
+            </video>
+
+            <div class="video-overlay">
+                <div class="hero-controls">
+                    <p class="eyebrow">Howdy Partner</p>
+                    <button id="hero-theme-toggle" class="theme-toggle" type="button" aria-label="Switch to light mode">☀</button>
+                </div>
+                <h1>I'm Kovid.</h1>
+                <h2>And I'm Awesome. Scroll to discover more.</h2>
+                <span class="scroll-indicator">↓</span>
+            </div>
+        </section>
+
+        <section class="profile-section reveal">
+            <div class="image-wrap upper-image">
+                <picture>
+                    <source id="profile-image-source-1" srcset="assets/kovid-top.jpg">
+                    <img id="profile-image-1" src="assets/kovid-top.jpg" alt="Kovid">
+                </picture>
+            </div>
+            <div class="section-content">
+                <p class="eyebrow">ABOUT ME</p>
+                <h2>Curious by nature.</h2>
+                <p>I'm Kovid Kulkarni , a student at SRM Kattankulathur. I am a weird mix of <strong>curious</strong>, <strong>crazy</strong> and <strong>insane</strong>.<br><br><strong>Curious</strong> as I was genuinely interested in learning how to make websites. <br><br><strong>Crazy</strong> as I didn't know how to make even basic HTML doc. <br><br><strong>Insane</strong> as this project is made purely by <strong>4 days of caffeine-induced coding frenzy.</strong></p>
+                <a href="#interests">Keep exploring →</a>
+            </div>
+        </section>
+
+        <section id="interests" class="profile-section reverse reveal">
+            <div class="image-wrap lower-image">
+                <picture>
+                    <source id="profile-image-source-2" srcset="assets/kovid-award.jpg">
+                    <img id="profile-image-2" src="assets/kovid-award.jpg" alt="Kovid receiving an award">
+                </picture>
+            </div>
+            <div class="section-content">
+                <p class="eyebrow">INTERESTS</p>
+                <h2>More than one thing.</h2>
+                <p>I'm interested in video games.<br><strong>(No I'm not talking about mobile games)</strong> .<br><br>I also enjoy playing guitar(played in the school band. Fun Times :) )<br><br> Some of my other hobbies include trying new cuisines<br>(would appreciate suggestions)<br><br>Other hobbies include<br>1] Listening to music.<br>2] Casual music editing (Hello Audacity)</p>
+                <a href="#links">Connect with me. →</a>
+            </div>
+        </section>
+
+        <section id="links" class="links-section reveal">
+            <p class="eyebrow">FIND ME</p>
+            <h2>Somewhere on the internet.</h2>
+            <p class="muted"></p>
+            <div class="links-grid">
+                <a href="https://github.com/Deme-droid" target="_blank" class="link-card">GitHub <span>↗</span></a>
+                <a href="https://www.linkedin.com/in/kovid-kulkarni-290336411/" target="_blank" class="link-card">LinkedIn <span>↗</span></a>
+                <a href="https://www.instagram.com/kulkarnikovid/" target="_blank" class="link-card" >Instagram <span>↗</span></a>
+                <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" class="link-card">DoNotClick <span>↗</span></a>
+            </div>
+        </section>
+
+        <footer><p>NWCC Project.</p></footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
